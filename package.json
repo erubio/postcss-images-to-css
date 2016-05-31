@@ -1,0 +1,32 @@
+{
+	"name": "postcss-imagest-to-css",
+	"version": "0.0.1",
+	"description": "PostCSS plugin to generate ",
+	"keywords": [
+		"postcss",
+		"css",
+		"postcss-plugin"
+	],
+	"author": "eze.rubio@gmail.com",
+	"license": "MIT",
+	"repository": "erubio/postcss-images-to-css.git",
+	"bugs": {
+		"url": "https://github.com/erubio/postcss-images-to-css.git/issues"
+	},
+	"homepage": "https://github.com/erubio/postcss-images-to-css.git",
+	"dependencies": {
+		"postcss": "^5.0.21",
+		"image-size": "^0.5.0"
+	},
+	"devDependencies": {
+		"ava": "^0.14.0",
+		"eslint": "^2.10.0",
+		"eslint-config-postcss": "^2.0.2"
+	},
+	"scripts": {
+		"test": "ava && eslint *.js"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-postcss/es5"
+	}
+}
