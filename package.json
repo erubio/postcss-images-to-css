@@ -1,5 +1,5 @@
 {
-	"name": "postcss-imagest-to-css",
+	"name": "postcss-images-to-css",
 	"version": "0.0.1",
 	"description": "PostCSS plugin to generate ",
 	"keywords": [
