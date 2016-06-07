@@ -14,7 +14,7 @@ module.exports = postcss.plugin('postcss-images-to-css', function (opts) {
 	}
 
 	function generateContent(files) {
-		var content = '.icon, [class^="icon-"], [class*=" icon-"] {\n\tdisplay: -moz-inline-stack;\n\tdisplay: inline-block;\n\tvertical-align: middle;\n\t**vertical-align: auto;\n\tzoom: 1;\n\t**display: inline;\n}';
+		var content = '.icon, [class^="icon-"], [class*=" icon-"] {\n\tdisplay: -moz-inline-stack;\n\tdisplay: inline-block;\n\tvertical-align: middle;\n\t*vertical-align: auto;\n\tzoom: 1;\n\t*display: inline;\n}';
 		files.forEach(function(file) {
 			var iconClass = file.split('.png')[0].replace('-hover', ':hover'),
 				dimensions = imageSize(process.cwd() + opts.spriteDir + '/' +  file);

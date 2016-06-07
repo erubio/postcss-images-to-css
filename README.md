@@ -41,9 +41,9 @@ You have some images in the spriteDir an in file /public/css/sprites.css will ge
 	display: -moz-inline-stack;
 	display: inline-block;
 	vertical-align: middle;
-	**vertical-align: auto;
+	*vertical-align: auto;
 	zoom: 1;
-	**display: inline;
+	*display: inline;
 }
 .icon-alert-dialog-modal{
 	background-image: resolve("alert-dialog-modal.png");
